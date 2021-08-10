@@ -1,0 +1,21 @@
+body{
+    background-image: url('../assets/img/cielo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .logo{
+    background: rgb(5, 46, 107);
+}
+
+nav > ul > li:hover{
+    background: rgb(5, 46, 107);
+}
+
+.post > .button-more{
+    background: rgb(5, 46, 107);
+}
+
+#login > form input[type ="submit"]{
+    background: rgb(5, 46, 107);
+}

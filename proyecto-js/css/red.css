@@ -1,0 +1,21 @@
+body{
+    background-image: url('../assets/img/rojo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .logo{
+    background: rgb(107, 5, 5);
+}
+
+nav > ul > li:hover{
+    background: rgb(107, 5, 5);
+}
+
+.post > .button-more{
+    background: rgb(107, 5, 5);
+}
+
+#login > form input[type ="submit"]{
+    background: rgb(107, 5, 5);
+}

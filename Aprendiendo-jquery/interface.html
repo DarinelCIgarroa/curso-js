@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery-UI</title>
+    <!-- Rezisable -->
+    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.theme.min.css">
+    <style>
+    
+        #elementos{
+            display: flex;
+        }
+        .elemento{
+            width: 150px;
+            height: 150px;
+            background: rgb(24, 105, 151);
+            z-index: 10000;
+            margin: 20px;
+            text-align: center;
+            color: blanchedalmond;
+            padding: 20px;
+            border: 2px solid black;
+            cursor:pointer;
+            z-index: 1;
+        }
+        .elementMove{
+            z-index: 1000;
+        }
+        li{
+            width: 50%;
+            height: 20px;
+            border: black 0.5px solid;
+            list-style: none;
+            padding: 20px;
+            margin: 1px;
+        }
+        .ui-selectee{
+            background: rgba(100, 148, 237, 0.671);
+        }
+        .ui-selected{
+            background: rgb(212, 25, 103) !important;
+        }
+       
+        #area{
+            width: 250px;
+            height: 250px;
+            border: black solid 3px;
+            background: crimson;
+        }
+        .dialog{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="elementos">
+        <div class="elemento elemento1"><p>Elemento1</p></div>
+        <div class="elemento elemento2"><p>Elemento2</p></div>
+        <div class="elemento elemento3"><p>Elemento3</p></div>
+        <div id="area"></div>
+        
+    </div>
+    <button id="toggle">Ocultar/Mostrar</button>
+    <ul class="listaSelect">
+        <li title="Resident evil 4">Resident Evil 4</li>
+        <li title="Gears of war 2">Gears Of War 2</li>
+        <li title="Cod blac kops">Call Of Duty Balc-kops</li>
+        <li title="Gta san andres">GTA San Andres</li>
+    </ul>
+    <button id="disparar">Disparar Dialog</button>
+    <div class="dialog" title="¿Estas seguro?">
+        <p>
+            Si continuas con el curso aprenderas mucho sobre
+            JS inevitablemente
+        </p>
+    </div>
+    <hr>
+    <h1>DataPicker</h1>
+    <input type="text" name="date" id="date">
+    
+    <hr>
+    <h1>Pestañas</h1>
+    <div id="pestanas">
+        <ul>
+            <li>
+                <a href="#tabs-1">Pestaña 1</a>
+            </li>
+            <div id="tabs-1">
+                soy la primera pestaña
+            </div>
+        </ul>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/06 - interface.js"></script>
+</body>
+</html>

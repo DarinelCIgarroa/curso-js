@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - JS</title>
+    <!-- MIS CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link id="style-theme" rel="stylesheet" href="css/green.css">
+    <!-- JQUERY-->
+    <script src="js/jquery.min.js"></script>
+    <!-- BXSLIDER-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- MIS SCRIPTS -->
+    <script src="js/main.js"></script>
+    <!-- MOMENT -->
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+    <!-- JQUERY UI -->
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.min.css">
+
+</head>
+
+<body>
+    <div class="theme-select">
+        <div class="to-green"></div>
+        <div class="to-red"></div>
+        <div class="to-blue"></div>
+    </div>
+    <section id="global">
+        <header>
+            <div class="logo">
+                <h1>PROYECTO JS</h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="slide">
+            <div class="bxslider">
+                <div><img src="assets/img/cielo.jpg" title="Funky roots"></div>
+                <div><img src="assets/img/rojo.jpg" title="The long and winding road"></div>
+                <div><img src="assets/img/hojas.jpg" title="Happy trees"></div>
+            </div>
+        </div>
+        <section id="contenedor">
+
+            <div id="accordion">
+                <h3>Sobre Nosotros</h3>
+                <div>
+                    <p>
+                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                    </p>
+                </div>
+                <h3>¿Por que trabajar con nosotros?</h3>
+                <div>
+                    <p>
+                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                    </p>
+                </div>
+                <h3>Acerca De</h3>
+                <div>
+                    <p>
+                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                    </p>
+                </div>
+                <h3>Hora Actual</h3>
+                <div id="reloj">
+                    
+                </div>
+            </div>
+
+            
+            
+            <aside class="sidebar">
+                    <div id="articulos">
+                        <div class="articulo">
+                            <img src="assets/img/caracol.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quod nisi doloribus
+                                earum
+                                tempora ab nostrum, distinctio ut accusantium numquam velit soluta excepturi dolores sed
+                                sapiente suscipit similique expedita est?</p>
+                        </div>
+                        <div class="articulo">
+                            <img src="assets/img/caracol.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quod nisi doloribus
+                                earum
+                                tempora ab nostrum, distinctio ut accusantium numquam velit soluta excepturi dolores sed
+                                sapiente suscipit similique expedita est?</p>
+                        </div>
+                        <div class="articulo">
+                            <img src="assets/img/caracol.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quod nisi doloribus
+                                earum
+                                tempora ab nostrum, distinctio ut accusantium numquam velit soluta excepturi dolores sed
+                                sapiente suscipit similique expedita est?</p>
+                        </div>
+                        <div id="login">
+                            <form action="#" id="form-login">
+                                <label for="">Nombre:</label>
+                                <p><input type="text" name="nombre" id="nombre"></p>
+                                <label for="">Correo:</label>
+                                <p><input type="email" name="correo" id="correo"></p>
+                                <label for="">Contraseña:</label>
+                                <p><input type="password" name="password" id="contasena"></p>
+                                <input type="submit" value="Login">
+                            </form>
+                        </div>
+                        <div id="welcome-text">
+                            <a href="#" id="logout">Cerrar Sesión</a>
+                        </div>
+                    </div>
+            </aside>
+
+        </section>
+        <footer id="footer">
+            <p>Proyecto con Java Script con Victor Robles</p>
+            <img id="subir" src="assets/img/arriba.png" alt="">
+        </footer>
+    </section>
+    <script src="js/jquery-ui/jquery-ui.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EVENTOS - JQUERY</title>
+</head>
+<style>
+    .contenido {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+
+    }
+
+    #caja {
+        width: 400px;
+        height: 400px;
+        border: black solid 2px;
+        background-color: #EC1F57;
+    }
+
+    p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .caja-formulario {
+        border: black 2px solid;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+
+    .info {
+        border: black 2px solid;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        font-size: 20px;
+        text-align: center;
+        display: none;
+    }
+
+    .caja-formulario form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .caja-formulario form p,
+    label {
+        margin-top: 10px;
+    }
+
+    #sigueme {
+        height: 30px;
+        width: 30px;
+        background: #1feca8;
+        opacity: 0.5;
+        position: absolute;
+        border-radius: 50%;
+    }
+</style>
+
+<body>
+    <h1>Eventos con JQUERY</h1>
+    <div class="contenido">
+
+        <div id="caja">
+            <p>soy una caja</p>
+        </div>
+
+        <div class="caja-formulario">
+            <form action="#">
+                <label for="name">NOMBRE:</label>
+                <p><input type="text" name="name" id="name" placeholder="Ingresa tu nombre"></p>
+            </form>
+        </div>
+
+        <div class="info">
+            <h6>Datos ingresados:</h6>
+        </div>
+    </div>
+    <div id="sigueme"></div>
+
+
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/02 - eventos.js"></script>
+</body>
+
+</html>
